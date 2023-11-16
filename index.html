@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title> <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div id="textDiv">Salam Dunya</div>
+    <h3>Font-size:</h3>
+    <div class="btn">
+      <button onclick="artirFont()">+</button>
+      <button onclick="azaltFont()">-</button>
+    </div>
+
+    <h3>Border-Radius:</h3>
+    <div class="btn">
+      <button onclick="artirRadius()">+</button>
+      <button onclick="azaltRadius()">-</button>
+    </div>
+
+    <h3>Height:</h3>
+    <div class="btn">
+      <button onclick="artirHeight()">+</button>
+      <button onclick="azaltHeight()">-</button>
+    </div>
+
+    <h3>Width:</h3>
+    <div class="btn">
+      <button onclick="artirWidth()">+</button>
+      <button onclick="azaltWidth()">-</button>
+    </div>
+
+    <div class="color">
+      <label for="textColorInput">Text color:</label>
+      <input type="color" id="textColorInput" oninput="deyisTextColor()" />
+    </div>
+
+    <div class="color">
+      <label for="bgColorInput">Background Color:</label>
+      <input type="color" id="bgColorInput" oninput="deyisBackgroundColor()" />
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
